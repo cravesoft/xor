@@ -1,0 +1,31 @@
+* {
+  box-sizing: content-box;
+}
+
+.client {
+  padding: 50px;
+}
+
+.content {
+  padding-top: 0;
+}
+
+.runner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+a:hover {
+  color: #555;
+}
+
+a.active {
+  color: #333;
+  font-weight: bold;
+}
+
+.runner .run {
+  text-align: center;
+}
